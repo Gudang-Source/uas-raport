@@ -1,0 +1,36 @@
+CRITICAL - 2020-06-16 01:52:30 --> Invalid file: template.php
+#0 /var/www/cy/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/cy/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/cy/uas/app/Controllers/Admin/Kbm.php(29): view('template', Array)
+#3 /var/www/cy/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Kbm->index()
+#4 /var/www/cy/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kbm))
+#5 /var/www/cy/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/cy/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-16 01:52:37 --> Invalid file: template.php
+#0 /var/www/cy/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/cy/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/cy/uas/app/Controllers/Admin/Kbm.php(29): view('template', Array)
+#3 /var/www/cy/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Kbm->index()
+#4 /var/www/cy/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kbm))
+#5 /var/www/cy/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/cy/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-16 01:56:18 --> Invalid file: template.php
+#0 /var/www/cy/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/cy/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/cy/uas/app/Controllers/Admin/Kbm.php(29): view('template', Array)
+#3 /var/www/cy/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Kbm->index()
+#4 /var/www/cy/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kbm))
+#5 /var/www/cy/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/cy/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-16 02:25:58 --> Invalid file: template.php
+#0 /var/www/cy/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/cy/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/cy/uas/app/Controllers/Admin/Kbm.php(29): view('template', Array)
+#3 /var/www/cy/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Kbm->index()
+#4 /var/www/cy/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Kbm))
+#5 /var/www/cy/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/cy/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,988 @@
+CRITICAL - 2020-06-15 03:02:57 --> syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/siswa/inse...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/siswa/inse...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 03:03:55 --> syntax error, unexpected 'elseif' (T_ELSEIF), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/siswa/tabl...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/siswa/tabl...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 03:18:22 --> Undefined variable: no_hp
+#0 /var/www/html/uas/app/Controllers/Api.php(352): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 352, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('insert')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 03:19:20 --> Unknown column 'no_help' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `si...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(360): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 03:19:39 --> Cannot add or update a child row: a foreign key constraint fails (`sekolah`.`siswa`, CONSTRAINT `kelas` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `si...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(360): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 03:20:15 --> Cannot add or update a child row: a foreign key constraint fails (`sekolah`.`siswa`, CONSTRAINT `kelas` FOREIGN KEY (`id_kelas`) REFERENCES `kelas` (`id_kelas`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `si...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(360): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 03:31:09 --> Undefined variable: id_keluarga
+#0 /var/www/html/uas/app/Controllers/Api.php(406): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 406, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('edit', '5')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 03:33:27 --> Unknown column 'id_siswa' in 'where clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(415): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('edit', '5')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 03:44:01 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/guru.mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/guru.mape...', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1117): view('table/guru.mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru.php(34): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru->mapel()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 04:04:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(577): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:04:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(577): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:07:24 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$keahlian
+#0 /var/www/html/uas/app/Controllers/Api.php(581): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 581, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:07:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(581): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:08:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(581): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:09:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(582): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:09:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(582): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:09:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(582): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:09:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(582): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:11:53 --> Call to undefined function App\Controllers\length()
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 04:12:11 --> Undefined property: stdClass::$nama_kelas
+#0 /var/www/html/uas/app/Controllers/Api.php(593): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 593, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:12:12 --> Undefined property: stdClass::$nama_kelas
+#0 /var/www/html/uas/app/Controllers/Api.php(593): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 593, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:15:12 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(593): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 593, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:16:05 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(593): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 593, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:16:06 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(593): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 593, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:17:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL' at line 1
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT * FROM m...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 /var/www/html/uas/app/Controllers/Api.php(586): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-15 04:18:47 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:18:59 --> Undefined property: stdClass::$id_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:19:24 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:19:29 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:19:30 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:19:31 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:19:52 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(598): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 598, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:20:16 --> Undefined property: stdClass::$nama_guru
+#0 /var/www/html/uas/app/Controllers/Api.php(597): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 597, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('table', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 04:29:49 --> syntax error, unexpected 'e' (T_STRING)
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/keahlian_g...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/keahlian_g...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 06:26:19 --> Invalid argument supplied for foreach()
+#0 /var/www/html/uas/app/Controllers/Api.php(575): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/var/www/html/u...', 575, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('update')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 06:46:13 --> Call to undefined function App\Controllers\intvall()
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 06:46:35 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:47:08 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:47:43 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:48:23 --> Unknown column 'mbuh' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:48:26 --> Unknown column 'mbuh' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:49:03 --> Duplicate entry '1' for key 'PRIMARY'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `guru` S...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `guru` S...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `guru` S...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `guru` S...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(638): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->keahlian_guru('delete', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 06:55:02 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/kbm.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/kbm', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1124): view('table/kbm')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Kbm.php(23): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Kbm->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kbm))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 07:06:30 --> Undefined property: stdClass::$id_kbm
+#0 /var/www/html/uas/app/Views/table/kbm.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 39, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/kbm', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1124): view('table/kbm')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Kbm.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Kbm->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kbm))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 07:19:39 --> syntax error, unexpected ')', expecting ']'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/kbm/table')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/kbm/table')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 08:21:47 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/raport.ph...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/raport', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1115): view('table/raport')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Raport.php(21): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Raport->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Raport))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 08:30:23 --> Column 'id_siswa' in where clause is ambiguous
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(741): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:30:32 --> Column 'id_siswa' in where clause is ambiguous
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(741): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:45:40 --> Unknown column 'a.id_mapel' in 'on clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:46:52 --> Column 'id_pembelajaran' in where clause is ambiguous
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:46:53 --> Column 'id_pembelajaran' in where clause is ambiguous
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:47:02 --> Column 'id_pembelajaran' in where clause is ambiguous
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:47:21 --> Unknown column 'a.id_mapel' in 'on clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:47:27 --> Unknown column 'a.id_mapel' in 'on clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT `a`.*, `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*, `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*, `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*, `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-15 08:48:52 --> Trying to get property 'id_kelas' of non-object
+#0 /var/www/html/uas/app/Controllers/Api.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/u...', 149, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', 'null')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 09:02:24 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+#0 /var/www/html/uas/app/Controllers/Nilai.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 19, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 09:03:22 --> Call to a member function getResult() on array
+#0 /var/www/html/uas/system/View/View.php(236): include()
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1115): view('table/nilai')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Nilai.php(32): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 09:04:31 --> Trying to get property 'id_kelas' of non-object
+#0 /var/www/html/uas/app/Views/table/nilai.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/u...', 14, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1115): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(32): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 09:13:06 --> Call to undefined function App\Controllers\sum()
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 09:13:13 --> Call to undefined function App\Controllers\sum()
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 09:13:35 --> array_sum() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_sum() exp...', '/var/www/html/u...', 744, Array)
+#1 /var/www/html/uas/app/Controllers/Api.php(744): array_sum('"[100,89,99,98,...')
+#2 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#3 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-15 09:14:07 --> Undefined property: stdClass::$nilai_akhir
+#0 /var/www/html/uas/app/Controllers/Api.php(746): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 746, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->raport('get', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-15 09:32:29 --> Class 'BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:32:37 --> Class 'BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:38:32 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Guru.php(23): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:41:59 --> Too few arguments to function App\Controllers\Api::mapel(), 0 passed in /var/www/html/uas/system/CodeIgniter.php on line 910 and at least 1 expected
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->mapel()
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 09:46:46 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:46:48 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:46:49 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:46:50 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:47:15 --> Class 'Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:47:17 --> Class 'Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:47:39 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:47:39 --> Class 'App\Controllers\Admin\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:47:53 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Dashboard.php(21): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:47:55 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Dashboard.php(21): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:47:55 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Dashboard.php(21): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:48:04 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Dashboard.php(21): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:48:05 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Dashboard.php(21): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:50:53 --> Class 'App\Controllers\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:51:08 --> Class 'App\Controllers\BaseController' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-15 09:55:58 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Nilai.php(32): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Nilai->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:57:19 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Nilai.php(32): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Nilai->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 09:57:57 --> Too few arguments to function App\Controllers\Api::login(), 0 passed in /var/www/html/uas/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->login()
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 10:09:10 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Siswa.php(31): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Siswa->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siswa))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 10:11:44 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Siswa.php(31): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Siswa->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Siswa))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 10:13:29 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::_escapeString() must be of the type string, null given, called in /var/www/html/uas/system/Database/BaseConnection.php on line 1429
+#0 /var/www/html/uas/system/Database/BaseConnection.php(1429): CodeIgniter\Database\MySQLi\Connection->_escapeString(NULL)
+#1 /var/www/html/uas/app/Controllers/Admin/Api.php(275): CodeIgniter\Database\BaseConnection->escapeString(NULL)
+#2 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Api->siswa('insert')
+#3 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api))
+#4 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-15 10:23:22 --> Object of class mysqli could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/u...', 443, Array)
+#1 /var/www/html/uas/system/Database/Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#2 /var/www/html/uas/system/Database/Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 /var/www/html/uas/system/Database/Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\Query->getQuery()
+#5 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 /var/www/html/uas/app/Views/admin/table/raport.php(8): CodeIgniter\Database\BaseBuilder->get()
+#7 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#8 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/rap...', Array, true)
+#9 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/rap...')
+#10 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#11 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#12 /var/www/html/uas/app/Controllers/Admin/Raport.php(25): view('admin/template', Array)
+#13 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Raport->index()
+#14 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+#15 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2020-06-15 10:26:05 --> Too few arguments to function App\Controllers\Admin\Api::raport(), 0 passed in /var/www/html/uas/system/CodeIgniter.php on line 910 and at least 1 expected
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Api->raport()
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 10:27:01 --> Too few arguments to function App\Controllers\Admin\Api::raport(), 0 passed in /var/www/html/uas/system/CodeIgniter.php on line 910 and at least 1 expected
+#0 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Api->raport()
+#1 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api))
+#2 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-06-15 10:28:56 --> Undefined variable: db
+#0 /var/www/html/uas/app/Views/admin/table/raport.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 6, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/rap...', Array, true)
+#3 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/rap...')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Admin/Raport.php(25): view('admin/template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Raport->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 10:29:09 --> Object of class stdClass could not be converted to string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/u...', 443, Array)
+#1 /var/www/html/uas/system/Database/Query.php(443): strtr('SELECT *\nFROM `...', Array)
+#2 /var/www/html/uas/system/Database/Query.php(404): CodeIgniter\Database\Query->matchNamedBinds('SELECT *\nFROM `...', Array)
+#3 /var/www/html/uas/system/Database/Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#4 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\Query->getQuery()
+#5 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#6 /var/www/html/uas/app/Views/admin/table/raport.php(8): CodeIgniter\Database\BaseBuilder->get()
+#7 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#8 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/rap...', Array, true)
+#9 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/rap...')
+#10 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#11 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#12 /var/www/html/uas/app/Controllers/Admin/Raport.php(25): view('admin/template', Array)
+#13 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Raport->index()
+#14 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Raport))
+#15 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2020-06-15 10:35:19 --> Undefined property: mysqli::$id_kelas
+#0 /var/www/html/uas/app/Views/admin/table/nilai.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 12, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/nil...', Array, true)
+#3 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/nil...')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Admin/Nilai.php(26): view('admin/template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 10:35:30 --> Undefined variable: kelas
+#0 /var/www/html/uas/app/Views/admin/table/nilai.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 10, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/nil...', Array, true)
+#3 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/nil...')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Admin/Nilai.php(26): view('admin/template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 10:35:43 --> Undefined property: mysqli::$id_kelas
+#0 /var/www/html/uas/app/Views/admin/table/nilai.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 12, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/table/nil...', Array, true)
+#3 /var/www/html/uas/app/Views/admin/template.php(1115): view('admin/table/nil...')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('admin/template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Admin/Nilai.php(26): view('admin/template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 10:44:17 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/dash...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/dash...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1115): view('guru/table/dash...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Dashboard.php(24): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Dashboard->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Dashboard))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:00:18 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/mape...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1108): view('guru/table/mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Mapel.php(24): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Mapel->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Mapel))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:01:23 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/mape...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1108): view('guru/table/mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Mapel.php(24): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Mapel->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Mapel))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:01:30 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/mape...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1108): view('guru/table/mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Mapel.php(24): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Mapel->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Mapel))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:01:36 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Guru/Guru.php(26): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:02:09 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Guru/Guru.php(26): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:02:10 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Guru/Guru.php(26): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:02:27 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Guru/Guru.php(26): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:04:19 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Admin/Guru.php(26): view('template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Admin\Guru->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Guru))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:19:08 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/mape...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1108): view('guru/table/mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Guru.php(40): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->keahlian()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:19:15 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('guru/table/mape...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/table/mape...', Array, true)
+#2 /var/www/html/uas/app/Views/guru/template.php(1108): view('guru/table/mape...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('guru/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru/Guru.php(40): view('guru/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru\Guru->keahlian()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru\Guru))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:40:05 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wali/template.p...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Wali/Dashboard.php(24): view('wali/template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Wali\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wali\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:40:32 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wali/template.p...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Wali/Dashboard.php(24): view('wali/template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Wali\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wali\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:40:32 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wali/template.p...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Wali/Dashboard.php(24): view('wali/template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Wali\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wali\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-06-15 11:40:48 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('wali/table/dash...')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/table/dash...', Array, true)
+#2 /var/www/html/uas/app/Views/wali/template.php(1093): view('wali/table/dash...')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Wali/Dashboard.php(24): view('wali/template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Wali\Dashboard->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wali\Dashboard))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-15 11:42:24 --> Undefined variable: m
+#0 /var/www/html/uas/app/Views/wali/table/raport.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 7, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/table/rapo...', Array, true)
+#3 /var/www/html/uas/app/Views/wali/template.php(1067): view('wali/table/rapo...')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('wali/template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Wali/Raport.php(25): view('wali/template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Wali\Raport->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wali\Raport))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-15 12:25:15 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa/template....')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('siswa/template', Array, true)
+#2 /var/www/html/uas/app/Controllers/Siswa/Dashboard.php(24): view('siswa/template', Array)
+#3 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Siswa\Dashboard->index()
+#4 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa\Dashboard))
+#5 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

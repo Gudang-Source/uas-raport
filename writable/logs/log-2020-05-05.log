@@ -1,0 +1,10 @@
+CRITICAL - 2020-05-05 07:03:17 --> Argument 1 passed to view() must be of the type string, null given, called in /var/www/html/homework/app/Views/template.php on line 1111
+#0 /var/www/html/homework/app/Views/template.php(1111): view(NULL)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#3 /var/www/html/homework/app/Controllers/Home.php(10): view('template')
+#4 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Home->index()
+#5 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

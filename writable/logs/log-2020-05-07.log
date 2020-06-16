@@ -1,0 +1,225 @@
+CRITICAL - 2020-05-07 02:07:33 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:07:35 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:08:21 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:08:22 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:01 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:02 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:02 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:02 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:49 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:50 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:53 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:10:54 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:11:36 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:12:51 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/homework/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/makul')
+#1 /var/www/html/homework/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/makul')
+#2 /var/www/html/homework/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-07 02:24:53 --> Cannot use object of type stdClass as array
+#0 /var/www/html/homework/system/View/View.php(236): include()
+#1 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('tabel_makul', Array, true)
+#2 /var/www/html/homework/app/Views/template.php(1078): view('tabel_makul')
+#3 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#4 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/homework/app/Controllers/Makul.php(22): view('template', Array)
+#6 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Makul->index()
+#7 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Makul))
+#8 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-07 02:29:44 --> Undefined property: stdClass::$nama_makul
+#0 /var/www/html/homework/app/Views/tabel_makul.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 16, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('tabel_makul', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('tabel_makul')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Users.php(22): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Users->index()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 02:30:54 --> Invalid file: {0}
+#0 /var/www/html/homework/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table.users')
+#1 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('table.users', Array, true)
+#2 /var/www/html/homework/app/Views/template.php(1078): view('table.users')
+#3 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#4 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/homework/app/Controllers/Users.php(22): view('template', Array)
+#6 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Users->index()
+#7 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-07 02:31:04 --> Undefined property: stdClass::$nama_makul
+#0 /var/www/html/homework/app/Views/table/users.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 16, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('table/users', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('table/users')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Users.php(22): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Users->index()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 02:56:03 --> Invalid file: {0}
+#0 /var/www/html/homework/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/tugas.php')
+#1 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('table/tugas', Array, true)
+#2 /var/www/html/homework/app/Views/template.php(1078): view('table/tugas')
+#3 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#4 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/homework/app/Controllers/Tugas.php(22): view('template', Array)
+#6 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->index()
+#7 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#8 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-05-07 08:40:07 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/html/homework/app/Views/add/tugas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 11, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('add/tugas', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('add/tugas')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Tugas.php(33): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->tambah()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 08:40:23 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/html/homework/app/Views/add/tugas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 11, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('add/tugas', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('add/tugas')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Tugas.php(33): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->tambah()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 08:40:24 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/html/homework/app/Views/add/tugas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 11, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('add/tugas', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('add/tugas')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Tugas.php(33): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->tambah()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 08:40:24 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/html/homework/app/Views/add/tugas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 11, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('add/tugas', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('add/tugas')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Tugas.php(33): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->tambah()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-05-07 08:41:13 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/html/homework/app/Views/add/tugas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/h...', 11, Array)
+#1 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#2 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('add/tugas', Array, true)
+#3 /var/www/html/homework/app/Views/template.php(1078): view('add/tugas')
+#4 /var/www/html/homework/system/View/View.php(236): include('/var/www/html/h...')
+#5 /var/www/html/homework/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/homework/app/Controllers/Tugas.php(33): view('template', Array)
+#7 /var/www/html/homework/system/CodeIgniter.php(910): App\Controllers\Tugas->tambah()
+#8 /var/www/html/homework/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugas))
+#9 /var/www/html/homework/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/homework/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2020-06-13 23:35:17 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/guru.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/guru', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1102): view('table/guru')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru.php(26): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-13 23:35:52 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/guru.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/guru', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1102): view('table/guru')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Guru.php(23): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Guru->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guru))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

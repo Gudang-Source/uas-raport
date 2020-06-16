@@ -1,0 +1,10 @@
+CRITICAL - 2020-06-09 06:23:26 --> Undefined variable: hapus
+#0 /var/www/html/uas/app/Views/template.php(1057): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 1057, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#3 /var/www/html/uas/app/Controllers/Mapel.php(22): view('template', Array)
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Mapel->index()
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

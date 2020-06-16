@@ -1,0 +1,73 @@
+CRITICAL - 2020-06-12 07:51:28 --> Access denied for user '****'@'localhost' (using password: NO)
+#0 /var/www/html/uas/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/uas/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/html/uas/app/Controllers/Mapel.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Mapel->index()
+#5 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mapel))
+#6 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-06-12 07:51:28 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in /var/www/html/uas/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/var/www/html/u...', 100, Array)
+#1 /var/www/html/uas/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Mapel), true)
+#2 /var/www/html/uas/system/Debug/Exceptions.php(298): include('/var/www/html/u...')
+#3 /var/www/html/uas/system/Debug/Exceptions.php(171): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-12 21:52:58 --> Undefined property: stdClass::$nama_siswa
+#0 /var/www/html/uas/app/Views/table/nilai.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 10, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1096): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(22): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-12 21:55:22 --> Undefined variable: nis
+#0 /var/www/html/uas/app/Controllers/Api.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 95, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-12 21:55:23 --> Undefined variable: nis
+#0 /var/www/html/uas/app/Controllers/Api.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 95, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-12 21:55:28 --> Undefined variable: nis
+#0 /var/www/html/uas/app/Controllers/Api.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 95, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-12 21:55:44 --> Undefined variable: nis
+#0 /var/www/html/uas/app/Controllers/Api.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 95, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-12 21:55:58 --> Unknown column 'id' in 'where clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

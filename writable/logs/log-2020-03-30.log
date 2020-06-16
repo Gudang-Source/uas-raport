@@ -1,0 +1,404 @@
+CRITICAL - 2020-03-30 01:07:48 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:07:49 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:07:49 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:07:49 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:07:56 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:09:58 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/public/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:11:31 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:11:32 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:12:19 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:12:22 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:14:57 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:14:59 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:15:03 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:15:08 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:17:28 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:17:30 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:35 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:36 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:36 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:46 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:47 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:47 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:56 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:23:58 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:03 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:19 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:19 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:20 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:20 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:23 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:24:25 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:25:51 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:26:39 --> Class 'Kint\Kint' not found
+#0 /var/www/html/yasui/system/CodeIgniter.php(224): require_once()
+#1 /var/www/html/yasui/system/CodeIgniter.php(193): CodeIgniter\CodeIgniter->initializeKint()
+#2 /var/www/html/yasui/system/bootstrap.php(168): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/html/yasui/index.php(36): require('/var/www/html/y...')
+#4 {main}
+CRITICAL - 2020-03-30 01:28:40 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 /var/www/html/yasui/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/login')
+#1 /var/www/html/yasui/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/login')
+#2 /var/www/html/yasui/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-30 01:28:51 --> Invalid file: {0}
+#0 /var/www/html/yasui/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 /var/www/html/yasui/system/Common.php(1071): CodeIgniter\View\View->render('', Array, true)
+#2 /var/www/html/yasui/app/Controllers/Login.php(6): view('')
+#3 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->index()
+#4 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-03-30 01:31:22 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/html/yasui/system/Common.php(1071): CodeIgniter\View\View->render('forms/login', Array, true)
+#1 /var/www/html/yasui/app/Controllers/Login.php(6): view('forms/login')
+#2 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->index()
+#3 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-03-30 01:36:28 --> Undefined property: App\Controllers\Login::$helper
+#0 /var/www/html/yasui/app/Controllers/Login.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/y...', 7, Array)
+#1 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->index()
+#2 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-30 01:38:02 --> Undefined variable: session
+#0 /var/www/html/yasui/app/Controllers/Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/y...', 10, Array)
+#1 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->index()
+#2 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-30 01:38:23 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 /var/www/html/yasui/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/var/www/html/y...')
+#1 /var/www/html/yasui/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /var/www/html/yasui/system/CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 /var/www/html/yasui/system/CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-03-30 02:26:45 --> Too few arguments to function App\Controllers\Login::admin(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 910 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:27:21 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:29:45 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:30:15 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:30:39 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:31:23 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 02:32:38 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 05:59:03 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:31:01 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:31:01 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:31:02 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:31:28 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:31:28 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:11 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:12 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:12 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:13 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:13 --> Too few arguments to function App\Controllers\Login::__construct(), 0 passed in /var/www/html/yasui/system/CodeIgniter.php on line 882 and exactly 1 expected
+#0 /var/www/html/yasui/system/CodeIgniter.php(882): App\Controllers\Login->__construct()
+#1 /var/www/html/yasui/system/CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:35:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get_where()
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:36:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:36:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getWhere()
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:38:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:41:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 /var/www/html/yasui/system/CodeIgniter.php(910): App\Controllers\Login->admin()
+#1 /var/www/html/yasui/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-03-30 07:42:49 --> syntax error, unexpected 'password_verify' (T_STRING), expecting '('
+#0 /var/www/html/yasui/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/login/admin')
+#1 /var/www/html/yasui/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/login/admin')
+#2 /var/www/html/yasui/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-03-30 07:43:00 --> Class 'password' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-03-30 07:44:13 --> Class 'password' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-03-30 07:53:30 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 /var/www/html/yasui/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/login/admin')
+#1 /var/www/html/yasui/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/login/admin')
+#2 /var/www/html/yasui/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/yasui/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/yasui/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

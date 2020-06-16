@@ -1,0 +1,673 @@
+CRITICAL - 2020-06-14 03:15:28 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:15:48 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:16:04 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:16:27 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:16:28 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:16:49 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:17:14 --> Undefined property: stdClass::$id_siswa
+#0 /var/www/html/uas/app/Views/table/nilai.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 10, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 03:17:57 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Views/table/nilai.php:9
+Stack trace:
+#0 /var/www/html/uas/app/Views/table/nilai.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 9, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 03:19:01 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/uas/app/Views/table/nilai.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 10, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 03:19:38 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/uas/app/Views/table/nilai.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 10, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 03:25:42 --> syntax error, unexpected ']', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#1 /var/www/html/uas/app/Views/template.php(1103): view('table/nilai')
+#2 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#3 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#4 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 03:26:37 --> Undefined property: stdClass::$id_siswa
+#0 /var/www/html/uas/app/Views/table/nilai.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 11, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1103): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 04:32:37 --> Call to undefined function database_connect()
+#0 /var/www/html/uas/system/View/View.php(236): include()
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-14 06:04:26 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:12:48 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 06:13:06 --> syntax error, unexpected ']'
+#0 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#1 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#2 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#3 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#4 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 06:13:24 --> syntax error, unexpected ']'
+#0 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#1 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#2 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#3 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#4 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 06:13:25 --> syntax error, unexpected ']'
+#0 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#1 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#2 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#3 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#4 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 06:14:04 --> Undefined property: stdClass::$nama_kelas
+#0 /var/www/html/uas/app/Views/table/nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 35, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 06:15:37 --> Undefined property: CodeIgniter\View\View::$session
+#0 /var/www/html/uas/app/Views/table/nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/u...', 35, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 06:19:04 --> Trying to get property 'id_kelas' of non-object
+#0 /var/www/html/uas/app/Views/table/nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/u...', 35, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 06:19:06 --> Trying to get property 'id_kelas' of non-object
+#0 /var/www/html/uas/app/Views/table/nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/u...', 35, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 06:19:17 --> Trying to get property 'id_kelas' of non-object
+#0 /var/www/html/uas/app/Views/table/nilai.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/var/www/html/u...', 35, Array)
+#1 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#2 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/nilai', Array, true)
+#3 /var/www/html/uas/app/Views/template.php(1102): view('table/nilai')
+#4 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#5 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#6 /var/www/html/uas/app/Controllers/Nilai.php(26): view('template', Array)
+#7 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Nilai->index()
+#8 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+#9 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-06-14 06:31:09 --> Unknown column 'id_siswa' in 'where clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 06:31:14 --> Unknown column 'id_siswa' in 'where clause'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(131): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 06:31:57 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/var/www/html/u...', 135, Array)
+#1 /var/www/html/uas/app/Controllers/Api.php(135): array_push('Matematika Tera...', Array)
+#2 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#3 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 06:33:32 --> array_push() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', '/var/www/html/u...', 135, Array)
+#1 /var/www/html/uas/app/Controllers/Api.php(135): array_push('Matematika Tera...', Array)
+#2 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#3 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#4 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-06-14 06:34:04 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:34:39 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:34:39 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:34:40 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:13 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:22 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:22 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:138
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 138, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:43 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:137
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 137, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:44 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:137
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 137, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:35:56 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:137
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 137, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:36:15 --> Uncaught ErrorException: Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string in /var/www/html/uas/app/Controllers/Api.php:135
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(135): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/u...', 135, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:36:16 --> Uncaught ErrorException: Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string in /var/www/html/uas/app/Controllers/Api.php:135
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(135): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/u...', 135, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 06:37:03 --> Uncaught ErrorException: Array to string conversion in /var/www/html/uas/app/Controllers/Api.php:137
+Stack trace:
+#0 /var/www/html/uas/app/Controllers/Api.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/u...', 137, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('get_mapel', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-06-14 07:12:13 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:16:42 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:16:59 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:17:08 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:17:18 --> syntax error, unexpected '}'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/get_...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/get_...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:18:06 --> Unknown column 'id_guru' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ni...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ni...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ni...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ni...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(132): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('update')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 07:20:30 --> Cannot add or update a child row: a foreign key constraint fails (`sekolah`.`nilai`, CONSTRAINT `pembelajaran` FOREIGN KEY (`id_pembelajaran`) REFERENCES `pembelajaran` (`id_pembelajaran`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `nilai` ...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nilai` ...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nilai` ...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `nilai` ...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(135): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('update')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 07:20:57 --> Cannot add or update a child row: a foreign key constraint fails (`sekolah`.`nilai`, CONSTRAINT `pembelajaran` FOREIGN KEY (`id_pembelajaran`) REFERENCES `pembelajaran` (`id_pembelajaran`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `nilai` ...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nilai` ...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nilai` ...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `nilai` ...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(136): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('update')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 07:22:34 --> Cannot add or update a child row: a foreign key constraint fails (`sekolah`.`nilai`, CONSTRAINT `pembelajaran` FOREIGN KEY (`id_pembelajaran`) REFERENCES `pembelajaran` (`id_pembelajaran`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('UPDATE `nilai` ...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `nilai` ...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `nilai` ...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2410): CodeIgniter\Database\BaseConnection->query('UPDATE `nilai` ...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(136): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('update')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 07:30:55 --> syntax error, unexpected ')', expecting ']'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:31:47 --> Undefined variable: nama
+#0 /var/www/html/uas/app/Controllers/Api.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 108, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:31:59 --> Undefined variable: nama
+#0 /var/www/html/uas/app/Controllers/Api.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/u...', 108, Array)
+#1 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->nilai('ganti_siswa', '1')
+#2 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:37:58 --> syntax error, unexpected ']', expecting ',' or ')'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 07:38:17 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/api/nilai/gant...')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/api/nilai/gant...')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-06-14 09:19:46 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:47 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:47 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:51 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:51 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:52 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:52 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:52 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 09:19:52 --> Unknown column 'nip' in 'field list'
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('INSERT INTO `ma...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(2206): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(208): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->guru('insert')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:02:48 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/kelas.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/kelas', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1102): view('table/kelas')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Kelas.php(21): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Kelas->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-14 19:02:51 --> Invalid file: {0}
+#0 /var/www/html/uas/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('table/kelas.php')
+#1 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('table/kelas', Array, true)
+#2 /var/www/html/uas/app/Views/template.php(1102): view('table/kelas')
+#3 /var/www/html/uas/system/View/View.php(236): include('/var/www/html/u...')
+#4 /var/www/html/uas/system/Common.php(1071): CodeIgniter\View\View->render('template', Array, true)
+#5 /var/www/html/uas/app/Controllers/Kelas.php(21): view('template', Array)
+#6 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Kelas->index()
+#7 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelas))
+#8 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-06-14 19:55:44 --> Table 'sekolah.wali' doesn't exist
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(413): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('table')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:55:56 --> Table 'sekolah.wali' doesn't exist
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(413): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('table')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 19:56:06 --> Table 'sekolah.wali' doesn't exist
+#0 /var/www/html/uas/system/Database/MySQLi/Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/uas/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/uas/system/Database/BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/uas/system/Database/BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/uas/app/Controllers/Api.php(413): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/uas/system/CodeIgniter.php(910): App\Controllers\Api->siswa('table')
+#6 /var/www/html/uas/system/CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-06-14 21:29:06 --> syntax error, unexpected ';', expecting ']'
+#0 /var/www/html/uas/system/Router/Router.php(192): CodeIgniter\Router\Router->autoRoute('/siswa')
+#1 /var/www/html/uas/system/CodeIgniter.php(785): CodeIgniter\Router\Router->handle('/siswa')
+#2 /var/www/html/uas/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/uas/system/CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/uas/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
